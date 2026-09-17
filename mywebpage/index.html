@@ -6,20 +6,23 @@
 <title>Личная страница Виктории Балашовой</title>
 </head>
 
-<body>
+<body style="background-color:	#FFF8DC;" >
 
 <header>
-<h1>Виктория Балашова</h1>
-<p>или просто Вика</p>
-<img src="https://github.com/bvickk/lingdata/blob/gh-pages/mywebpage/myphoto.jpg">
+<h1 style="color: #8B0000;"><i>Виктория Балашова</i></h1>
+<hr>
+<p><i>или просто Вика</i></p>
+<img src="https://github.com/bvickk/lingdata/blob/gh-pages/mywebpage/myphoto.jpg" style="height:200px; margin:20px 20px 40px 20px; ">
 </header>
 
-<h2><i>Где мои личные соцсети?</i></h2>
+<div class="container">
+<h2 style="color: #8B0000;"><i>Где мои личные соцсети?</i></h2>
 <form id="quizForm">
 <label><input name="question" type="radio" value="true" /><a href="https://vk.ru/bvickkk">VK</a>, <a href="https://t.me/bvickkk">Telegram</a></label><br>
 <label><input name="question" type="radio" value="false" /><a href="https://ling.hse.ru/">Сайт Школы лингвистики НИУ ВШЭ</a> , <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2026/index.html">cтраница курса</a>, <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2026/baling_263.html">cтраница группы</a></label><br><br>
 <button type="button" onclick="checkAnswer()">Готово</button>
 </form>
+</div>
 <div id="result" class="result"></div>
 <script>
 function checkAnswer() {
@@ -45,7 +48,8 @@ resultDiv.className = 'result wrong';
 }
 </script>
 
-<h2>Немного обо мне</h2>
+<div style="text-align: center; list-style-position: inside;">
+<h2 style="color: #8B0000;">Немного обо мне</h2>
 <ul>
 <li>очень люблю языки, хочу выучить все и сразу, какое-то время хотела стать переводчиком</li>
 <li>при этом всю жизнь училась в инженерном классе физмат лицея :)</li>
@@ -53,8 +57,9 @@ resultDiv.className = 'result wrong';
 <li>я наполовину марийка, все детство ездила в Йошкар-Олу и обожала слушать марийскую речь в деревнях; сама марийский, к сожалению, фактически не знаю(</li>
 <li>до сих пор регулярно грущу из-за того, что Плутон перестали считать планетой</li>
 </ul>
+</div>
 
-<h3>Люблю:</h3>
+<h3 style="color: #8B0000;">Люблю:</h3>
 <ul>
 <li>всех кошек: маленьких, больших, домашних, диких, очень пушистых и совсем лысых...</li>
 <li>щадящие физические активности: пилатес, йогу, долгую ходьбу</li>
@@ -63,19 +68,21 @@ resultDiv.className = 'result wrong';
 <li>батончики рот фронт</li>
 </ul>
 
-<h3>Не люблю:</h3>
-<ul>
+<div style="text-align: right; list-style-position: inside;">
+<h3 style="color: #8B0000;">Не люблю:</h3>
+<ul class="right-list">
 <li>геометрию</li>
 <li>свой слабый иммунитет</li>
 <li>кабачки</li>
 <li>когда Нижний Новгород называют Новгородом</li>
 </ul>
+</div>
 
-<h3>Родной город</h3>
-<p>Нижний Новгород</p>
+<h3 style="color: #8B0000;">Родной город</h3>
+<p><i>Нижний Новгород</i></p>
 
-<h3>Место учебы</h3>
-<p><s>Лицей 82</s> &rArr; Фундаментальная и компьютерная лингвистика, НИУ ВШЭ, Москва</p>
+<h3 style="color: #8B0000;">Место учебы</h3>
+<p><s>Лицей 82</s> <br> &rArr; <br> <i>Фундаментальная и компьютерная лингвистика, НИУ ВШЭ, Москва</i></p>
 
 <footer> 
 <div class="container"> 

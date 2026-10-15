@@ -4,8 +4,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
-            MEDIA_URL="file:///C:/Users/Вика/Downloads/Lgov_yasb2008.mp4"
-            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./Lgov_yasb2008.mp4"/>
+            MEDIA_URL="file:///C:/Users/Вика/Downloads/Lgov_jsb2008.mp4"
+            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./Lgov_jsb2008.mp4"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:c2d2de88-0b4c-4497-8e40-8ac5990808b5</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">351</PROPERTY>
     </HEADER>
@@ -204,8 +204,8 @@
         <TIME_SLOT TIME_SLOT_ID="ts192" TIME_VALUE="785657"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="default"/>
-    <TIER ANNOTATOR="@bvs2008f" LINGUISTIC_TYPE_REF="utterance"
-        PARTICIPANT="@yasb2008f" TIER_ID="text@yasb2008f">
+    <TIER ANNOTATOR="@vsb2008f" LINGUISTIC_TYPE_REF="utterance"
+        PARTICIPANT="@jsb2008f" TIER_ID="text@jsb2008f">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
                 TIME_SLOT_REF1="ts10" TIME_SLOT_REF2="ts18">
@@ -381,8 +381,8 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER ANNOTATOR="@bvs2008f" LINGUISTIC_TYPE_REF="utterance"
-        PARTICIPANT="@pam2008f" TIER_ID="text@pam2008f">
+    <TIER ANNOTATOR="@bvsb2008f" LINGUISTIC_TYPE_REF="utterance"
+        PARTICIPANT="@pmm2008f" TIER_ID="text@pmm2008f">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
                 TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
@@ -415,7 +415,7 @@
         </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="@vsb2008f" LINGUISTIC_TYPE_REF="words"
-        PARENT_REF="text@yasb2008f" PARTICIPANT="@yasb2008f" TIER_ID="token@yasb2008f">
+        PARENT_REF="text@jsb2008f" PARTICIPANT="@jsb2008f" TIER_ID="token@jsb2008f">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36"
                 TIME_SLOT_REF1="ts10" TIME_SLOT_REF2="ts11">
@@ -1252,7 +1252,7 @@
         </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="@vsb2008f" LINGUISTIC_TYPE_REF="words"
-        PARENT_REF="text@pam2008f" PARTICIPANT="@pam2008f" TIER_ID="token@pam2008f">
+        PARENT_REF="text@pmm2008f" PARTICIPANT="@pmm2008f" TIER_ID="token@pmm2008f">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a175"
                 TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
@@ -1369,7 +1369,7 @@
         </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="@vsb2008f" LINGUISTIC_TYPE_REF="part of speech"
-        PARENT_REF="token@yasb2008f" PARTICIPANT="@yasb2008f" TIER_ID="pos@yasb2008f">
+        PARENT_REF="token@jsb2008f" PARTICIPANT="@jsb2008f" TIER_ID="pos@jsb2008f">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a194" ANNOTATION_REF="a36" CVE_REF="cveid_aa61a0a9-df07-4edd-8305-952db57f73fa">
                 <ANNOTATION_VALUE>PART</ANNOTATION_VALUE>
